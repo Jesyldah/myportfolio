@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 import webbrowser
 
-logo_im = Image.open("./logo.png")
+logo_im = Image.open("./logo.jpg")
 
 # ------------------ SETTINGS ------------------ #
 st.set_page_config(layout="wide", page_title="Zuka Analytics", page_icon=logo_im)
