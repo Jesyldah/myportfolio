@@ -2,11 +2,15 @@ import streamlit as st
 from PIL import Image
 import webbrowser
 
+logo_im = Image.open("./logo.png")
+
 # ------------------ SETTINGS ------------------ #
-st.set_page_config(page_title="Zuka Analytics", page_icon="./logo.png", layout="wide")
+st.set_page_config(layout="wide", page_title="Zuka Analytics", page_icon=logo_im)
+
+profile_im = Image.open("./logo.png")
 
 # ------------------ SIDEBAR ------------------ #
-st.sidebar.image("./profile.jpg", width=150)
+st.sidebar.image(profile_im, width=150)
 st.sidebar.markdown("""
 <style>
 .sidebar-title {
@@ -72,7 +76,7 @@ st.markdown("## 🌟 Featured Projects")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("./cashmirror.png")
+    st.image(Image.open("./cashmirror.png"))
     st.markdown("**📊 M-PESA Reconciliation Tool**")
     st.caption("Automates parsing and analysis of M-Pesa PDF statements")
     if st.button("View App", key="proj1"):
@@ -86,14 +90,14 @@ with col1:
 #         webbrowser.open_new_tab("https://your-streamlit-app-url-2")
 
 with col2:
-    st.image("./openaccess.png")
+    st.image(Image.open("./openaccess.png"))
     st.markdown("**🏗️ Housing Development Cost Benchmarking**")
     st.caption("Compare and benchmark housing development costs across projects and regions")
     if st.button("Explore Tool", key="proj6"):
         webbrowser.open_new_tab("https://kobov0.streamlit.app//")
 
 with col3:
-    st.image("./nut world logo.png")
+    st.image(Image.open("./nut world logo.png"))
     st.markdown("**🥜 NutsWorld Website**")
     st.caption("E-commerce site for premium cashew nuts and healthy snacks")
     if st.button("Visit Site", key="proj5"):
