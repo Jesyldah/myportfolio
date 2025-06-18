@@ -7,7 +7,7 @@ logo_im = Image.open("./logo.png")
 # ------------------ SETTINGS ------------------ #
 st.set_page_config(layout="wide", page_title="Zuka Analytics", page_icon=logo_im)
 
-profile_im = Image.open("./logo.png")
+profile_im = Image.open("./profile.jpg")
 
 # ------------------ SIDEBAR ------------------ #
 st.sidebar.image(profile_im, width=150)
