@@ -6,7 +6,7 @@ import webbrowser
 st.set_page_config(page_title="Zuka Analytics", page_icon="./logo.png", layout="wide")
 
 # ------------------ SIDEBAR ------------------ #
-st.sidebar.image("images/profile.jpg", width=150)
+st.sidebar.image("./profile.jpg", width=150)
 st.sidebar.markdown("""
 <style>
 .sidebar-title {
@@ -72,7 +72,7 @@ st.markdown("## 🌟 Featured Projects")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("images/cashmirror.png")
+    st.image("./cashmirror.png")
     st.markdown("**📊 M-PESA Reconciliation Tool**")
     st.caption("Automates parsing and analysis of M-Pesa PDF statements")
     if st.button("View App", key="proj1"):
@@ -86,14 +86,14 @@ with col1:
 #         webbrowser.open_new_tab("https://your-streamlit-app-url-2")
 
 with col2:
-    st.image("images/openaccess.png")
+    st.image("./openaccess.png")
     st.markdown("**🏗️ Housing Development Cost Benchmarking**")
     st.caption("Compare and benchmark housing development costs across projects and regions")
     if st.button("Explore Tool", key="proj6"):
         webbrowser.open_new_tab("https://kobov0.streamlit.app//")
 
 with col3:
-    st.image("images/nut world logo.png")
+    st.image("./nut world logo.png")
     st.markdown("**🥜 NutsWorld Website**")
     st.caption("E-commerce site for premium cashew nuts and healthy snacks")
     if st.button("Visit Site", key="proj5"):
