@@ -1,6 +1,6 @@
-# 🎈 Blank app template
+# 🎈 Zuka Analytics
 
-Housing Development Cost Comparison
+My Portfolio
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://zukaanalytics.streamlit.app//)
 
