@@ -3,7 +3,7 @@ from PIL import Image
 import webbrowser
 
 # ------------------ SETTINGS ------------------ #
-st.set_page_config(page_title="Zuka Analytics", page_icon="images/logo.png", layout="wide")
+st.set_page_config(page_title="Zuka Analytics", page_icon="./logo.png", layout="wide")
 
 # ------------------ SIDEBAR ------------------ #
 st.sidebar.image("images/profile.jpg", width=150)
