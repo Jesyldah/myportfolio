@@ -79,8 +79,13 @@ with col1:
     st.image(Image.open("./cashmirror.png"))
     st.markdown("**📊 M-PESA Reconciliation Tool**")
     st.caption("Automates parsing and analysis of M-Pesa PDF statements")
-    if st.button("View App", key="proj1"):
-        webbrowser.open_new_tab("https://cashmirror.streamlit.app//")
+    st.markdown(
+    '<a href="https://cashmirror.streamlit.app/" target="_blank">'
+    '<button style="background-color:#4CAF50; color:white; border:none; padding:8px 16px; border-radius:4px;">'
+    'View App</button></a>',
+    unsafe_allow_html=True)
+    # if st.button("View App", key="proj1"):
+    #     webbrowser.open_new_tab("https://cashmirror.streamlit.app//")
 
 # with col2:
 #     st.image("https://via.placeholder.com/300x180.png?text=Project+2")
@@ -93,15 +98,25 @@ with col2:
     st.image(Image.open("./openaccess.png"))
     st.markdown("**🏗️ Housing Development Cost Benchmarking**")
     st.caption("Compare and benchmark housing development costs across projects and regions")
-    if st.button("Explore Tool", key="proj6"):
-        webbrowser.open_new_tab("https://kobov0.streamlit.app//")
+    st.markdown(
+        '<a href="https://kobov0.streamlit.app/" target="_blank">'
+        '<button style="background-color:#4CAF50; color:white; border:none; padding:8px 16px; border-radius:4px;">'
+        'Explore Tool</button></a>',
+    unsafe_allow_html=True)
+    # if st.button("Explore Tool", key="proj6"):
+    #     webbrowser.open_new_tab("https://kobov0.streamlit.app//")
 
 with col3:
     st.image(Image.open("./nut world logo.png"))
     st.markdown("**🥜 NutsWorld Website**")
     st.caption("E-commerce site for premium cashew nuts and healthy snacks")
-    if st.button("Visit Site", key="proj5"):
-        webbrowser.open_new_tab("https://nutsworld.co.ke/")
+    st.markdown(
+        '<a href="https://nutsworld.co.ke/" target="_blank">'
+        '<button style="background-color:#4CAF50; color:white; border:none; padding:8px 16px; border-radius:4px;">'
+        'Visit Site</button></a>',
+    unsafe_allow_html=True)
+    # if st.button("Visit Site", key="proj5"):
+    #     webbrowser.open_new_tab("https://nutsworld.co.ke/")
 
 # with col3:
 #     st.image("https://via.placeholder.com/300x180.png?text=Project+3")
