@@ -112,7 +112,7 @@ with col3:
     st.caption("E-commerce site for premium cashew nuts and healthy snacks")
     st.markdown(
         '<a href="https://nutsworld.co.ke/" target="_blank">'
-        '<button style="background-color:#4CAF50; color:white; border:none; padding:8px 16px; border-radius:4px;">'
+        '<button style="color:#4CAF50; border:none; padding:8px 16px; border-radius:4px;">'
         'Visit Site</button></a>',
     unsafe_allow_html=True)
     # if st.button("Visit Site", key="proj5"):
